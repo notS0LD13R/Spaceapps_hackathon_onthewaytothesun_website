@@ -1,7 +1,7 @@
 :root{
     --clr-white:hsl(0, 0%, 100%);
-    --clr-yellow:hsl(65, 99%, 51%);
-    --clr-blue:hsl(216, 100%, 33%);
+    --clr-yellow:#0a06fe;;
+    --clr-blue: hsl(216 5% 12%);
     --clr-red:hsl(14, 100%, 45%);
     font-size: 16px;
     
@@ -25,6 +25,13 @@ body{
     background-color: var(--clr-blue);
     background-image: url("Media/patternbg-transp.png");
 
+}
+
+.home{
+    padding: 20px;
+    position: absolute;
+    top: 0px;
+    right:50px;
 }
 
 header{
@@ -178,7 +185,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: hsla(0, 0, 0, 0.5);
+    background-color: hsla(0, 0, 0, 0.8);
     text-align:center ;
     font-size: 32px;
     font-family: 'Overpass', sans-serif;
