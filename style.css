@@ -193,6 +193,7 @@ footer {
   color: var(--clr-white);
 }
 
+
 @media (max-width: 960px) {
   :root {
     font-size: 1.8vw;
